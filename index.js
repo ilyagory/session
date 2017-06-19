@@ -36,7 +36,7 @@ var env = process.env.NODE_ENV;
  */
 
 exports = module.exports = session;
-
+exports.getcookie = getcookie;
 /**
  * Expose constructors.
  */
